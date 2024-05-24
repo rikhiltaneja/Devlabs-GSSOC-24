@@ -10,6 +10,7 @@ import NotFound from "./Component/NotFound";
 import BackToTopButton from "./Component/BackToTopButton";
 import OpenSource from "./Component/OpenSource";
 import Review from "./Component/Review";
+import Login from "./Component/Login";
 
 function App() {
   const [searchQuery, setSearchQuery] = useState("");
@@ -21,6 +22,7 @@ function App() {
         <Route path="/bookmark" element={<BookMark />}></Route>
         <Route path="/about" element={<About />}></Route>
         <Route path="/open-source" element={<OpenSource />}></Route>
+        <Route path="/login" element={<Login />} />
         <Route path="/review" element={<Review />}></Route>
         <Route path="*" element={<NotFound />} /> {/* 404 route */}
       </Routes>

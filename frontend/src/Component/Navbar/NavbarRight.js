@@ -20,7 +20,7 @@ function NavbarRight(props) {
   };
 
   return (
-    <div className="navbar-right" id="navbarTogglerDemo03">
+    <div className="navbar-right"  id="navbarTogglerDemo03">
       <div className="search">
         <form role="search" className="search-bar" onSubmit={handleSearch}>
           <div className="box">

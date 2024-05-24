@@ -53,12 +53,12 @@ code {
 		monospace;
 }
 
-img {
+/* img {
 	background: #fff;
 	padding: 3px;
 	margin: 5px;
 	border-radius: 40px;
-}
+} */
 
 .darkmode--activated img {
 	filter: invert(1);
